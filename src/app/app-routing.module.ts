@@ -1,6 +1,5 @@
 import {NgModule} from '@angular/core';
 import {Routes, RouterModule} from '@angular/router';
-import { WorkOrderSearchComponent } from './work-order-search/work-order-search.component';
 import {MenuService} from '@delon/theme';
 
 const routes: Routes = [

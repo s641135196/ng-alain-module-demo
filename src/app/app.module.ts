@@ -13,6 +13,7 @@ import {DelonUtilModule} from '@delon/util';
 import {DelonAuthModule} from '@delon/auth';
 import {DelonFormModule} from '@delon/form';
 import {RouteReuseStrategy} from '@angular/router';
+import { LayoutModule } from './layout/layout.module';
 
 
 const REUSETAB_PROVIDES = [
@@ -39,6 +40,7 @@ const REUSETAB_PROVIDES = [
     DelonUtilModule,
     DelonAuthModule,
     DelonFormModule.forRoot(),
+    LayoutModule
   ],
   providers: [...REUSETAB_PROVIDES],
   bootstrap: [AppComponent]

@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { CustonInfoComponent } from './custon-info/custon-info.component';
+import { CustomInfoComponent } from './custom-info/custom-info.component';
 
 
 const routes: Routes = [
@@ -9,7 +9,7 @@ const routes: Routes = [
     children: [
     {
       path: 'custom-info',
-      component: CustonInfoComponent,
+      component: CustomInfoComponent,
       data: { title: '用户信息', reuse: true },
     }
   ]

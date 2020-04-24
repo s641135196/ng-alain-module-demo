@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { WorkOrderRoutingModule } from './work-order-routing.module';
-import { CustonInfoComponent } from './custon-info/custon-info.component';
+import { WorkOrderRoutingModule } from './work-order.routing.module';
+import { CustomInfoComponent } from './custom-info/custom-info.component';
 
 @NgModule({
-  declarations: [CustonInfoComponent],
+  declarations: [CustomInfoComponent],
   imports: [
     CommonModule,
     WorkOrderRoutingModule,

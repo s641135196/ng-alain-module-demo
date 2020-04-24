@@ -11,6 +11,6 @@ export class AppComponent implements AfterViewInit {
     private router: Router,
      ) {}
     ngAfterViewInit(): void {
-       this.router.navigate(['/admin/identity/user']);
+       this.router.navigate(['/workorder/custom-info']);
   }
 }
